@@ -1,0 +1,10 @@
+
+services:
+ app:
+  volumes:
+    - .:/finances-app
+  ports:
+    - 3000:3000
+  image: app:react
+  container_name: my-finances-react
+  command: npm start

@@ -1,0 +1,25 @@
+.container{
+  margin-top: 5rem;
+}
+
+.custom-shape-divider-bottom-1652824347 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: -1;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1652824347 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 75px;
+}
+
+.custom-shape-divider-bottom-1652824347 .shape-fill {
+  fill: #C9A602;
+}
